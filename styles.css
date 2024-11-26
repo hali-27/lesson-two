@@ -1,0 +1,53 @@
+#navbar {
+    background-color: blue;
+    color: white;
+    justify-content: space-between;
+}
+a {
+    color: white;
+}
+
+#sidebar {
+    background-color: red;
+    color: white;
+    width: 300px;
+    float:left;
+}
+
+#body {
+    background-color: yellow;
+    color: black;
+    wdith: 600px;
+}
+
+#sidebar-right {
+    background-color: pink;
+    color: blue;
+    float: right;
+}
+
+#footer {
+    background-color: green;
+    color: black;
+    height: 100px;
+}
+
+#container {
+    display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+
+#content-container {
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+aside {
+    padding: 12px;
+    border-radius: 12px;
+
+}
